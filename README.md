@@ -1,6 +1,6 @@
 # 📦 Project Name
 
-> Image filtering in image processing.
+> Image processing demo.
 
 ---
 
@@ -14,21 +14,23 @@
     - [Prerequisites](#prerequisites)
     - [Source](#source)
     - [Usage](#usage)
-    - [Reference](#reference)
 
 ---
 
 ## 📝 About
 
-> This is a simple tool to filter image by many types.
+> Some demos are used to investigate image processing in Matlab.
 
 ---
 
 ## ✨ Features
 
-- ✅ Add noise with density (Gaussian, Poisson, Salt & Pepper, Speckle)
-- ✅ Noise removal filter by size
-- ✅ Enhancement
+- ✅ Read, display, change size, convert image
+- ✅ Analyze components in colored image
+- ✅ Color identification
+- ✅ Brightness adjustment
+- ✅ Exponential transform
+- ✅ Histogram display
 
 ---
 
@@ -43,15 +45,10 @@
 
 - *.fig: design GUI
 - *.m: main app
+- Image/: resource
 
 ### Usage
 
 - Open file *.m in MATLAB
 - Change folder to location containing source code
 - Run
-- When app window opens, choose image file first
-- Apply custom image filters (fill mandatory parameters) and see results 
-
-### Reference
-
-- 
